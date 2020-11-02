@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{399fd85f-85cb-4fd5-a189-63060d038e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinAPI">
+      <UniqueIdentifier>{e05d1e6e-6600-46fa-b94a-1214db0489bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMainApp.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>WinAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>WinAPI</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
